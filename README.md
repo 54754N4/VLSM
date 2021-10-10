@@ -19,39 +19,10 @@ foreach (var subnet in subnets)
 
 Subnetter will automatically calculate the respective configurations for each as such :
 
-```
-Subnet name: Marketing
-Hosts: 400
-Subnetmask: 255.255.254.0
-Network address: 192.168.0.0
-Broadcast address: 192.168.1.255
-IP range: 192.168.0.1-192.168.1.254
-
-Subnet name: IT
-Hosts: 275
-Subnetmask: 255.255.254.0
-Network address: 192.168.2.0
-Broadcast address: 192.168.3.255
-IP range: 192.168.2.1-192.168.3.254
-
-Subnet name: Sales
-Hosts: 265
-Subnetmask: 255.255.254.0
-Network address: 192.168.4.0
-Broadcast address: 192.168.5.255
-IP range: 192.168.4.1-192.168.5.254
-
-Subnet name: Accounting
-Hosts: 127
-Subnetmask: 255.255.255.0
-Network address: 192.168.6.0
-Broadcast address: 192.168.6.255
-IP range: 192.168.6.1-192.168.6.254
-
-Subnet name: Customer Care
-Hosts: 38
-Subnetmask: 255.255.255.192
-Network address: 192.168.7.0
-Broadcast address: 192.168.7.63
-IP range: 192.168.7.1-192.168.7.62
-```
+| Subnet | Hosts | Subnetmask | Network Address | Broadcast Address | IP Range |
+| --- | --- | --- | --- | --- | --- |
+| Marketing | 400 | 255.255.254.0 | 192.168.0.0 | 192.168.1.255 | 192.168.0.1-192.168.1.254 |
+| IT | 275 | 255.255.254.0 | 192.168.2.0 | 192.168.3.255 | 192.168.2.1-192.168.3.254 |
+| Sales | 265 | 255.255.254.0 | 192.168.4.0 | 192.168.5.255 | 192.168.4.1-192.168.5.254 |
+| Accounting | 127 | 255.255.255.0 | 192.168.6.0 | 192.168.6.255 | 192.168.6.1-192.168.6.254 |
+| Customer Care | 38 | 255.255.255.192 | 192.168.7.0 | 192.168.7.63 | 192.168.7.1-192.168.7.62 |
