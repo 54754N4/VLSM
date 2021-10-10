@@ -20,7 +20,7 @@ foreach (var subnet in subnets)
 Subnetter will automatically calculate the respective configurations for each as such :
 
 | Subnet | Hosts | Subnetmask | Network Address | Broadcast Address | IP Range |
-| --- | --- | --- | --- | --- | --- |
+|  :----:  | :----: | :----: | :----: | :----: | :----: |
 | Marketing | 400 | 255.255.254.0 | 192.168.0.0 | 192.168.1.255 | 192.168.0.1-192.168.1.254 |
 | IT | 275 | 255.255.254.0 | 192.168.2.0 | 192.168.3.255 | 192.168.2.1-192.168.3.254 |
 | Sales | 265 | 255.255.254.0 | 192.168.4.0 | 192.168.5.255 | 192.168.4.1-192.168.5.254 |
