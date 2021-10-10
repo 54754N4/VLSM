@@ -1,0 +1,16 @@
+D:\Desktop\Workspaces\C#\repos\Subnetter\bin\Debug\net5.0\Subnetter.exe
+D:\Desktop\Workspaces\C#\repos\Subnetter\bin\Debug\net5.0\Subnetter.deps.json
+D:\Desktop\Workspaces\C#\repos\Subnetter\bin\Debug\net5.0\Subnetter.runtimeconfig.json
+D:\Desktop\Workspaces\C#\repos\Subnetter\bin\Debug\net5.0\Subnetter.runtimeconfig.dev.json
+D:\Desktop\Workspaces\C#\repos\Subnetter\bin\Debug\net5.0\Subnetter.dll
+D:\Desktop\Workspaces\C#\repos\Subnetter\bin\Debug\net5.0\ref\Subnetter.dll
+D:\Desktop\Workspaces\C#\repos\Subnetter\bin\Debug\net5.0\Subnetter.pdb
+D:\Desktop\Workspaces\C#\repos\Subnetter\obj\Debug\net5.0\Subnetter.csproj.AssemblyReference.cache
+D:\Desktop\Workspaces\C#\repos\Subnetter\obj\Debug\net5.0\Subnetter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Workspaces\C#\repos\Subnetter\obj\Debug\net5.0\Subnetter.AssemblyInfoInputs.cache
+D:\Desktop\Workspaces\C#\repos\Subnetter\obj\Debug\net5.0\Subnetter.AssemblyInfo.cs
+D:\Desktop\Workspaces\C#\repos\Subnetter\obj\Debug\net5.0\Subnetter.csproj.CoreCompileInputs.cache
+D:\Desktop\Workspaces\C#\repos\Subnetter\obj\Debug\net5.0\Subnetter.dll
+D:\Desktop\Workspaces\C#\repos\Subnetter\obj\Debug\net5.0\ref\Subnetter.dll
+D:\Desktop\Workspaces\C#\repos\Subnetter\obj\Debug\net5.0\Subnetter.pdb
+D:\Desktop\Workspaces\C#\repos\Subnetter\obj\Debug\net5.0\Subnetter.genruntimeconfig.cache
