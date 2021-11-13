@@ -765,23 +765,23 @@ namespace Subnetter
             //Console.WriteLine(cidr.MaximumSubnets(64));     // calculates how many /64s can we have 
 
             var cidr = IP6.CIDR.From("2001:db8:cad::/48");  // given by ISP
-            Console.WriteLine($"Initial CIDR: {cidr}");
             var dict = new Dictionary<string, int>          // subnet hierarchy
             {
                 { "Country", 3 },
                 { "State", 60 },
                 { "Office", 10 }
             };
+            var subnets = IP6.VLSM.For(cidr, dict);
             // Print subnets hierarchy
-            var subnet = IP6.VLSM.For(cidr, dict);
+            Console.WriteLine($"Initial CIDR: {cidr}");
             for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine($"{subnet.Names[0]} {i}: {subnet[i]}");
+                Console.WriteLine($"{subnets.Names[0]} {i}: {subnets[i]}");
                 for (int j = 0; j < 60; j++)
                 {
-                    Console.WriteLine($"|---{subnet.Names[1]} {j}: {subnet[i, j]}");
+                    Console.WriteLine($"|---{subnets.Names[1]} {j}: {subnets[i, j]}");
                     for (int k = 0; k < 10; k++)
-                        Console.WriteLine($"|   |---{subnet.Names[2]} {k}: {subnet[i, j, k]}");
+                        Console.WriteLine($"|   |---{subnets.Names[2]} {k}: {subnets[i, j, k]}");
                 }
             }
                 
