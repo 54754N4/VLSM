@@ -43,7 +43,7 @@ var dict = new Dictionary<string, int>          // subnet hierarchy
 var subnets = IP6.VLSM.For(cidr, dict);
 ```
 
-Due to the huge amount of addresses in IPv6, all subnet addresses are calculated on the fly. Hence, it allows you to access each of them through the use of indices. In the example's case above, since the hierarchy has 3 levels, each subnet can be accessed as such `subnets[i,j,k] where i,j,k are values between [0,2],[0,59],[0,9] respectively`.
+Due to the huge amount of addresses in IPv6, all subnet addresses are calculated on the fly. Hence, it allows you to access each of them through the use of indices. In the example's case above, since the hierarchy has 3 levels, each subnet can be accessed as such `subnets[i,j,k]` where i,j,k are values between `[0,2],[0,59],[0,9]` respectively.
 
 ```C#
 // Print subnets hierarchy
